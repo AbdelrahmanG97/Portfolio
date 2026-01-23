@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" sizes="64x64">
+    <title>Abdelrahman Gamal</title>
+    <meta name="description" content="Portfolio of Abdelrahman Gamal, a Frontend Angular Developer specialized in building interactive web experiences.">
+    <meta name="keywords" content="Frontend, Angular, Developer, Portfolio, Web Design, Egypt">
+    <meta name="author" content="Abdelrahman Gamal">
+    <meta property="og:title" content="Abdelrahman Gamal | Frontend Developer">
+    <meta property="og:description" content="Check out my latest frontend projects and journey.">
+    <meta property="og:image" content="assets/images/portfolio-preview.jpg"> <meta property="og:url" content="https://your-website-link.com">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+</head>
+<body>
+    <!-- Effects -->
+    <div class="glow-blob"></div>
+    <div class="back-to-top"><i class='bx bx-chevron-up'></i></div>
+
+    <!-- ------- Header --------------------- -->
+    <header id="navbar">
+        <div class="logo">
+            <a href="#" class="logo-link">
+                <svg viewBox="0 0 100 100" width="45" height="45" class="custom-logo">
+                    <path d="M 27 75 L 41 32 Q 45 24 49 32 L 63 75 M 41 60 L 55 60" 
+                        stroke="var(--accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <path d="M85 58 a20 20 1 1 0-20 20V64q0-4 3-4h5" 
+                        stroke="var(--text-muted)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </svg>
+            </a>
+        </div>
+
+        <nav class="desktop-nav">
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="nav-actions desktop-actions">
+            <button class="theme-btn" aria-label="Toggle Theme">
+                <i class='bx bx-sun'></i>
+            </button>
+            
+            <a href="assets/Abdelrahman-Gamal-CV.pdf" download="assets/Abdelrahman-Gamal-CV.pdf" class="btn-contact mobile-github-btn">
+                <i class='bx bxs-download'></i> Download CV
+            </a>
+        </div>
+
+        <button class="theme-btn mobile-element mobile-theme-btn">
+            <i class='bx bx-sun'></i>
+        </button>
+
+        <div class="menu-btn mobile-element">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <!-- Mobile header -->
+    <div class="mobile-nav">
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-actions">
+            <a href="assets/Abdelrahman-Gamal-CV.pdf" download="assets/Abdelrahman-Gamal-CV.pdf" class="btn-contact mobile-github-btn">
+                <i class='bx bxs-download'></i> Download CV
+            </a>
+        </div>
+    </div>
+    <div class="menu-overlay"></div>
+    <!-- ------- /Header --------------------- -->
+
+    <!-- ------- Hero Section --------------------- -->
+    <section class="hero section-padding hidden">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <div class="greeting-pill">
+                    <span class="wave">👋</span> Hello, I'm
+                </div>
+                
+                <h1 class="hero-name">
+                    <span class="highlight">Abdelrahman</span> <br> Gamal.
+                </h1>
+                
+                <h2 class="hero-job">Frontend Developer</h2>
+                
+                <p class="hero-bio">
+                    Crafting scalable web apps and engaging user experiences with modern frontend tech.
+                </p>
+
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+
+                    <a href="https://github.com/AbdelrahmanG97" target="_blank" class="btn-text big-btn">
+                        <i class='bx bxl-github size-b'></i> GitHub <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="img-blob-wrap">
+                    <img src="assets/images/bg2.png" alt="Abdelrahman Gamal">
+                </div>
+                
+                <div class="floating-card c1">
+                    <i class='bx bxl-angular' style="color: #dd0031; font-size: 1.5rem;"></i> 
+                    <span>Angular</span>
+                </div>
+                
+                <div class="floating-card c2">
+                    <i class='bx bx-code-alt' style="color: var(--accent); font-size: 1.5rem;"></i>
+                    <span>Clean Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------/Hero Section --------------------- -->
+
+    <!-- ------- Foucs Section --------------------- -->
+    <section id="focus" class="section-padding hidden">
+        <div class="container">
+            <h2 class="section-title">Current Focus<span>.</span></h2>
+            <div class="learning-grid">
+                <div class="learning-card">
+                    <div class="learning-icon"><i class='bx bxl-javascript'></i></div>
+                    <h3>JavaScript Mastery</h3>
+                    <p>Building scalable and structured Angular applications.</p>
+                    <div class="focus-tag">Daily Practice</div>
+                </div>
+                <div class="learning-card">
+                    <div class="learning-icon"><i class='bx bxl-angular'></i></div>
+                    <h3>Advanced Angular</h3>
+                    <p>Creating dynamic and interactive web experiences.</p>
+                    <div class="focus-tag">In Progress</div>
+                </div>
+                <div class="learning-card">
+                    <div class="learning-icon"><i class='bx bxs-component'></i></div>
+                    <h3>State Management</h3>
+                    <p>Organizing and managing app state efficiently.</p>
+                    <div class="focus-tag">Building Project</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------/Foucs Section --------------------- -->
+
+    <!-- ------- About Section --------------------- -->
+    <section id="about" class="section-padding hidden">
+        <div class="container">
+            <h2 class="section-title">About Me<span>.</span></h2>
+            <div class="about-card glass-card">
+                <p class="about-desc">
+                    I'm a <strong>Computer Science graduate</strong> with a strong passion for Frontend Development. 
+                    I enjoy building modern, interactive applications using <strong>Angular</strong> and <strong>TypeScript</strong>.
+                    <br><br>
+                    I learn best by doing, so every project is an opportunity to experiment, break things, and grow.
+                </p>
+
+                <div class="tech-stack-container">
+                    <span class="tech-label">My Tech Stack:</span>
+                    <div class="tech-icons">
+                        <div class="tech-item" title="HTML5"><i class='bx bxl-html5'></i></div>
+                        <div class="tech-item" title="CSS3"><i class='bx bxl-css3'></i></div>
+                        <div class="tech-item" title="JavaScript"><i class='bx bxl-javascript'></i></div>
+                        <div class="tech-item" title="TypeScript"><i class='bx bxl-typescript'></i></div>
+                        <div class="tech-item" title="Angular"><i class='bx bxl-angular'></i></div>
+                        <div class="tech-item" title="Git"><i class='bx bxl-git'></i></div>
+                        <div class="tech-item" title="Figma"><i class='bx bxl-figma'></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------/About Section --------------------- -->
+
+    <!-- ------- Experience Section --------------------- -->
+    <section id="experience" class="section-padding hidden">
+        <div class="container">
+            <h2 class="section-title">My Journey<span>.</span></h2>
+            <div class="timeline ">
+                <div class="timeline-fill"></div>
+                <div class="timeline-item hidden">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-content glass-card">
+                        <h3>Angular Frontend Developer Training (DEPI)</h3>
+                        <span class="timeline-date">2025 – Present</span>
+                        <p>Developing Single Page Applications (SPAs) with Angular, using Git for version control, and mastering modern frontend workflows.</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-content glass-card">
+                        <h3>Self-Taught Frontend Journey</h3>
+                        <span class="timeline-date">2023 – Present</span>
+                        <p>Progressed from HTML and CSS to JavaScript and modern frontend frameworks, building interactive and responsive web projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden">
+                    <span class="timeline-dot"></span>
+                    <div class="timeline-content glass-card">
+                        <h3>Computer Science Graduate</h3>
+                        <span class="timeline-date">Completed 2023</span>
+                        <p>Built a strong foundation in programming fundamentals and problem-solving.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------/Experience Section --------------------- -->
+
+    <!-- ------- Project Section --------------------- -->
+    <section id="projects" class="section-padding hidden">
+        <div class="container">
+            <h2 class="section-title">Selected Work<span>.</span></h2>
+
+            <div class="featured-project">
+                <div class="featured-content">
+                    <div class="project-overline">Featured Project</div>
+                    <h3 class="project-heading">Family Bakery</h3>
+                    <div class="project-desc-box">
+                        <p>
+                            A pixel-perfect landing page for a local bakery business. 
+                            Focused on semantic HTML architecture, accessibility, and a responsive layout.
+                        </p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Responsive</li>
+                    </ul>
+                    <div class="project-links-area">
+                        <a href="https://github.com/yourusername/bakery" target="_blank"><i class='bx bxl-github size-b'></i></a>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="img-wrapper">
+                        <img src="assets/images/p1.png" alt="Bakery Project">
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="sub-title" style="text-align: center; margin-top: 4rem; margin-bottom: 2rem; color: var(--text-muted);">Other Noteworthy Projects</h3>
+            
+            <div class="projects-grid">
+                <div class="mini-project-card">
+                    <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                    <div class="mini-content">
+                        <h3>Fruits Shop</h3>
+                        <p>A minimalist task manager exploring Angular signals and local storage.</p>
+                        <ul class="mini-tech">
+                            <li>Angular</li>
+                            <li>TypeScript</li>
+                        </ul>
+                    </div>
+                    <div class="mini-links">
+                        <a href="#"><i class='bx bxl-github size-b'></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="mini-project-card">
+                    <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                    <div class="mini-content">
+                        <h3>Portfolio v1</h3>
+                        <p>My first attempt at building a personal website using vanilla JS.</p>
+                        <ul class="mini-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                    <div class="mini-links">
+                        <a href="#"><i class='bx bxl-github'></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------/Project Section --------------------- -->
+
+    <!-- ------- Contact Section --------------------- -->
+    <section id="contact" class="section-padding hidden">
+        <div class="container">
+            <div class="contact-wrapper glass-card centered-box">
+                <div class="contact-content">
+                    <h2 class="contact-cta">
+                        Have an idea? <br>
+                        <span class="highlight-text">Let's build it.</span>
+                    </h2>
+
+                    <div class="contact-actions">
+                        <a href="mailto:abdelrahman@example.com" class="btn-primary big-btn">
+                            <i class='bx bx-envelope'></i> Send Email
+                        </a>
+                        <button class="btn-outline big-btn" onclick="copyEmail(this)">
+                            <i class='bx bx-copy'></i> <span class="btn-text-span">Copy Email</span>
+                        </button>
+                    </div>
+
+                    <div class="social-row-large">
+                        <a href="https://www.linkedin.com/in/abdel-rahman97" target="_blank" class="social-box"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/AbdelrahmanG97" target="_blank" class="social-box"><i class='bx bxl-github'></i></a>
+                        <a href="https://x.com/3bdelr7man_97" target="_blank" class="social-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;">
+                                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------/Contact Section --------------------- -->
+
+    <!-- ------- Footer Section --------------------- -->
+    <footer class="footer-grid-section">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-cta-box">
+                    <h2 class="cta-title">Let's create something meaningful.</h2>
+                    <a href="#contact" class="footer-btn">Get in Touch <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="availability-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Available for new opportunities</span>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-middle">
+                <div class="footer-col brand-col">
+                    <a href="#" class="footer-logo">
+                        <svg viewBox="0 0 100 100" width="50" height="50">
+                            <path d="M 27 75 L 41 32 Q 45 24 49 32 L 63 75 M 41 60 L 55 60" 
+                                  stroke="var(--accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                            <path d="M85 58 a20 20 1 1 0-20 20V64q0-4 3-4h5" 
+                                  stroke="var(--text-muted)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                    </a>
+                    <p class="brand-desc">Frontend Developer focused on building accessible, pixel-perfect web experiences.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="col-title">Navigation</h4>
+                    <ul class="footer-list">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Selected Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="col-title">Connect</h4>
+                    <ul class="footer-list">
+                        <li><a href="https://www.linkedin.com/in/abdel-rahman97" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/AbdelrahmanG97" target="_blank">GitHub</a></li>
+                        <li><a href="https://x.com/3bdelr7man_97" target="_blank">X</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 Abdelrahman Gamal.</p>
+                <div class="local-time">
+                    <i class='bx bx-time'></i> Local time: <span id="timeDisplay">00:00 PM</span> GMT+2
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- -------/Footer Section --------------------- -->
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
